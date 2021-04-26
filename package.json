@@ -1,0 +1,19 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "description": "Demo scrapper utility",
+  "main": "run_scrapper.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node run_scrapper.js"
+  },
+  "keywords": [
+    "scrapper"
+  ],
+  "author": "zrikyds",
+  "license": "ISC",
+  "dependencies": {
+    "fast-csv": "^4.3.6",
+    "puppeteer": "^9.0.0"
+  }
+}
